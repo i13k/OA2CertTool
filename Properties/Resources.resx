@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="0A90B4C0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0A90B4C0.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="0AD84A05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0AD84A05.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="0C0DEFA0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0C0DEFA0.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="0CCB6E6F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0CCB6E6F.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="0E7CE0CF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0E7CE0CF.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="0FE7D570" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0FE7D570.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1AC4E3E3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1AC4E3E3.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1C352F65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1C352F65.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1CA6EAF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1CA6EAF1.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1CAEC53B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1CAEC53B.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1E3D783B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1E3D783B.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1E4C121A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1E4C121A.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1E430960" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1E430960.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2AA084B5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2AA084B5.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2B47FC7A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2B47FC7A.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2BBAE7E9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2BBAE7E9.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2C4DDDDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2C4DDDDF.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2CF78BE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2CF78BE2.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2D276A9A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2D276A9A.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2DEA2D29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2DEA2D29.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2E5D78D7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2E5D78D7.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="3D532205" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3D532205.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="3FA6BAC6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3FA6BAC6.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="4AEE8293" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4AEE8293.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="4D8A9FAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4D8A9FAD.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="4E945240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4E945240.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="4F4C9659" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4F4C9659.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="4FCF6D67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4FCF6D67.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="4FF810DF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4FF810DF.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5C3EC672" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5C3EC672.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5D614D53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5D614D53.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5F1BB52B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5F1BB52B.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5F2A0018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5F2A0018.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="6A5B0F33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6A5B0F33.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="6A303045" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6A303045.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="6C7AC2E5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6C7AC2E5.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="6DCFCC8C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6DCFCC8C.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="6E985187" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6E985187.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="6EE0AEF7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6EE0AEF7.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="6F1C2C42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6F1C2C42.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="6FD87839" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6FD87839.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="7B95A9C9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7B95A9C9.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="7BE19011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7BE19011.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="8AA814B9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8AA814B9.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="8B64A047" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8B64A047.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="8F518DF7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8F518DF7.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="9B72D970" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9B72D970.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="9C6BE810" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9C6BE810.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="9C596F4D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9C596F4D.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="9CD3AC12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9CD3AC12.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="9D352640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9D352640.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="9DAA1EA8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9DAA1EA8.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="9DC447BC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9DC447BC.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="9ECCE823" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9ECCE823.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="9FF312EF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9FF312EF.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="01A5B80D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01A5B80D.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="03F585B1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\03F585B1.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="08D3343D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08D3343D.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="08F38F86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08F38F86.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="09B3D4A0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\09B3D4A0.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="15EF42DD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15EF42DD.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="15FA6CFA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15FA6CFA.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="18A91646" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18A91646.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="18E2AE4D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18E2AE4D.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="20A242CC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20A242CC.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="22F5FFBE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22F5FFBE.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="27D5B13D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27D5B13D.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="31A7E460" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31A7E460.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="31F25772" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31F25772.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="32ACE5B5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32ACE5B5.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="34E0023A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34E0023A.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="40D0E800" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\40D0E800.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="40FBC564" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\40FBC564.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="49A255D9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\49A255D9.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="51E2A0EB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51E2A0EB.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="56CD14E4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\56CD14E4.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="61F5E9B3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61F5E9B3.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="65D63653" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\65D63653.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="74EB4F4D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\74EB4F4D.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="85FC8576" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\85FC8576.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="86C7604B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\86C7604B.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="86CE918F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\86CE918F.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="89F0FD1E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\89F0FD1E.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="90AD4147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\90AD4147.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="90B3EE3C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\90B3EE3C.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="90C42709" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\90C42709.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="92AD2761" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\92AD2761.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="94BE9955" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\94BE9955.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="190A218F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\190A218F.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="219E017E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219E017E.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="312AD010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\312AD010.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="391E48D9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\391E48D9.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="416E2341" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416E2341.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="427A6FC2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\427A6FC2.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="466A3673" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\466A3673.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="490F94E8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\490F94E8.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="530AE85A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\530AE85A.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="797F6650" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\797F6650.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="821E5700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\821E5700.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="914F11CE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\914F11CE.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="938C8463" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\938C8463.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="982A911D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\982A911D.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2326B6D7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2326B6D7.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="4833BB48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4833BB48.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5111F5C7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5111F5C7.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5124FDF6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5124FDF6.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5489B30E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5489B30E.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="7529E763" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7529E763.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="7855C97E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7855C97E.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="08004FF5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08004FF5.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="12496D27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12496D27.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="23452AA3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23452AA3.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="32478D8E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32478D8E.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="33872FB4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33872FB4.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="88952B75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\88952B75.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="213188F2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\213188F2.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="430121CF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\430121CF.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="4653813F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4653813F.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="8575729E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8575729E.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="25409206" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25409206.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="56383518" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\56383518.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="70882418" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\70882418.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A1E2F388" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A1E2F388.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A4FAA3A8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A4FAA3A8.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A5FE3AF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A5FE3AF1.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A7D36E1B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A7D36E1B.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A8A23122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A8A23122.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A24A5AA8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A24A5AA8.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A64F9DBD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A64F9DBD.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A89C71DA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A89C71DA.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A858EC84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A858EC84.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A885DAF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A885DAF2.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A6203D93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A6203D93.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A22183E2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A22183E2.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A5945797" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A5945797.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ADF840D3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADF840D3.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AEC1F1DF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AEC1F1DF.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B3BA1343" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B3BA1343.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B5ECAA87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B5ECAA87.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B9EBCCBA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B9EBCCBA.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B62F3588" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B62F3588.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B85A6FB0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B85A6FB0.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BB857975" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB857975.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BDD8BDB3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BDD8BDB3.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BE35D773" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BE35D773.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="C1C0A990" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C1C0A990.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="C6D9F0F9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C6D9F0F9.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="C15DBE70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C15DBE70.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="C64D179C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C64D179C.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="C402EE5E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C402EE5E.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="C430FA81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C430FA81.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CAA58F6D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CAA58F6D.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCD65610" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCD65610.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDFF8F7E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDFF8F7E.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CEAE8979" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CEAE8979.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CF23F010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CF23F010.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="D496FD8B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D496FD8B.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="D52567AC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D52567AC.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="D5866172" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D5866172.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="D6368075" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D6368075.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE971820" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DE971820.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DFE5E6B5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DFE5E6B5.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="E2E27ABE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E2E27ABE.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="E4B10A30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E4B10A30.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="E7C38515" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E7C38515.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="E7E8202D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E7E8202D.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="E9C2D00A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E9C2D00A.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="E32E10A0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E32E10A0.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="E9145E7F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E9145E7F.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="E1491339" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E1491339.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EA69D009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EA69D009.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EC4DE6DC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EC4DE6DC.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ED52F577" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ED52F577.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ED339BDA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ED339BDA.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EDEF1D42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EDEF1D42.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EFC30174" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EFC30174.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="F3DB11F6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F3DB11F6.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="F8CDC922" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F8CDC922.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="F9DC3B00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F9DC3B00.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="F05B0CA1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F05B0CA1.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="F57A2D5A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F57A2D5A.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="F5026E07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F5026E07.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FDF8D6B5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FDF8D6B5.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FF3344D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FF3344D1.xrm-ms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
