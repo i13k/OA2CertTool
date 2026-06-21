@@ -26,6 +26,7 @@ All three must be present for activation to succeed. **Please note:** OEM Activa
 | Windows Server 2019     | 2.5 |
 | Windows Server 2022     | 2.6 |
 | Windows Server 2025     | 2.7 |
+
 OEM Activation 2.x is not available on client operating systems past Windows 7 (that is, Windows 8, 8.1, 10, and 11). They use a completely different system called OEM Activation 3.0, which connects to Microsoft servers for activation.
 
 ## Safety
