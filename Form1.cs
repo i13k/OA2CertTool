@@ -132,7 +132,6 @@ namespace OA2CertTool
                 {
                     s.Write(cert, 0, cert.Length);
                     s.Close();
-                    MessageBox.Show("Certificate saved!", "Success!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 } else
                 {
                     MessageBox.Show("Failed to save file!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
