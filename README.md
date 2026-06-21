@@ -9,6 +9,7 @@ OEM Activation 2.x is a technology used by Microsoft to enable Windows activatio
 * a `SLIC` table in the computer's BIOS (it contains the name of the OEM, a table ID, the OEM's cryptographic key and digital signature, **and the supported version of OEM Activation** (eg. 2.1));
 * an `.xrm-ms` certificate file (this is signed by Microsoft and certifies the validity of the OEM's cryptographic key);
 * a valid OEM Activation 2.x product key for your Windows edition; a list of keys is available [here](https://d-fault.nl/keys). **Warning:** This is **not** the key printed on the Certificate of Authenticity sticker.
+
 All three must be present for activation to succeed. **Please note:** OEM Activation 2.x is not bound to a specific edition of Windows. If you have a SLIC table for, say, version 2.1 and the `.xrm-ms` certificate for it, you may activate **any** edition of Windows supporting OEM Activation 2.1 (that is, all editions of Windows 7 and Server 2008 R2). While technically possible, this is, of course, **not legal**, because to activate Windows, you need to have a license for the edition you want to activate. However, if you do have the license for the Windows edition you want to activate (such as the one that came with your computer), this is **perfectly legal**.
 
 **NB:** OEM Activation 2.x product keys are not OEM-specific. You may use any key you want.
